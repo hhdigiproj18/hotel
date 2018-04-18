@@ -1,54 +1,58 @@
 -- phpMyAdmin SQL Dump
--- version 4.2.7.1
--- http://www.phpmyadmin.net
+-- version 4.8.0
+-- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Sep 14, 2017 at 06:52 PM
--- Server version: 5.6.20
--- PHP Version: 5.5.15
+-- Generation Time: 18.04.2018 klo 19:02
+-- Palvelimen versio: 10.1.31-MariaDB
+-- PHP Version: 7.2.4
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET AUTOCOMMIT = 0;
+START TRANSACTION;
 SET time_zone = "+00:00";
 
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
 /*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
-/*!40101 SET NAMES utf8 */;
+/*!40101 SET NAMES utf8mb4 */;
 
 --
 -- Database: `hotel`
 --
+CREATE DATABASE IF NOT EXISTS `hotel` DEFAULT CHARACTER SET latin1 COLLATE latin1_bin;
+USE `hotel`;
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `contact`
+-- Rakenne taululle `contact`
 --
 
-CREATE TABLE IF NOT EXISTS `contact` (
-`id` int(10) unsigned NOT NULL,
+CREATE TABLE `contact` (
+  `id` int(10) UNSIGNED NOT NULL,
   `fullname` varchar(100) DEFAULT NULL,
   `phoneno` int(10) DEFAULT NULL,
   `email` text,
   `cdate` date DEFAULT NULL,
   `approval` varchar(12) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `login`
+-- Rakenne taululle `login`
 --
 
-CREATE TABLE IF NOT EXISTS `login` (
-`id` int(10) unsigned NOT NULL,
+CREATE TABLE `login` (
+  `id` int(10) UNSIGNED NOT NULL,
   `usname` varchar(30) DEFAULT NULL,
   `pass` varchar(30) DEFAULT NULL
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=3 ;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Dumping data for table `login`
+-- Vedos taulusta `login`
 --
 
 INSERT INTO `login` (`id`, `usname`, `pass`) VALUES
@@ -58,23 +62,23 @@ INSERT INTO `login` (`id`, `usname`, `pass`) VALUES
 -- --------------------------------------------------------
 
 --
--- Table structure for table `newsletterlog`
+-- Rakenne taululle `newsletterlog`
 --
 
-CREATE TABLE IF NOT EXISTS `newsletterlog` (
-`id` int(10) unsigned NOT NULL,
+CREATE TABLE `newsletterlog` (
+  `id` int(10) UNSIGNED NOT NULL,
   `title` varchar(52) DEFAULT NULL,
   `subject` varchar(100) DEFAULT NULL,
   `news` text
-) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `payment`
+-- Rakenne taululle `payment`
 --
 
-CREATE TABLE IF NOT EXISTS `payment` (
+CREATE TABLE `payment` (
   `id` int(11) DEFAULT NULL,
   `title` varchar(5) DEFAULT NULL,
   `fname` varchar(30) DEFAULT NULL,
@@ -95,19 +99,19 @@ CREATE TABLE IF NOT EXISTS `payment` (
 -- --------------------------------------------------------
 
 --
--- Table structure for table `room`
+-- Rakenne taululle `room`
 --
 
-CREATE TABLE IF NOT EXISTS `room` (
-`id` int(10) unsigned NOT NULL,
+CREATE TABLE `room` (
+  `id` int(10) UNSIGNED NOT NULL,
   `type` varchar(15) DEFAULT NULL,
   `bedding` varchar(10) DEFAULT NULL,
   `place` varchar(10) DEFAULT NULL,
   `cusid` int(11) DEFAULT NULL
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=16 ;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Dumping data for table `room`
+-- Vedos taulusta `room`
 --
 
 INSERT INTO `room` (`id`, `type`, `bedding`, `place`, `cusid`) VALUES
@@ -130,11 +134,11 @@ INSERT INTO `room` (`id`, `type`, `bedding`, `place`, `cusid`) VALUES
 -- --------------------------------------------------------
 
 --
--- Table structure for table `roombook`
+-- Rakenne taululle `roombook`
 --
 
-CREATE TABLE IF NOT EXISTS `roombook` (
-`id` int(10) unsigned NOT NULL,
+CREATE TABLE `roombook` (
+  `id` int(10) UNSIGNED NOT NULL,
   `Title` varchar(5) DEFAULT NULL,
   `FName` text,
   `LName` text,
@@ -150,7 +154,7 @@ CREATE TABLE IF NOT EXISTS `roombook` (
   `cout` date DEFAULT NULL,
   `stat` varchar(15) DEFAULT NULL,
   `nodays` int(11) DEFAULT NULL
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=2 ;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
 -- Indexes for dumped tables
@@ -160,31 +164,31 @@ CREATE TABLE IF NOT EXISTS `roombook` (
 -- Indexes for table `contact`
 --
 ALTER TABLE `contact`
- ADD PRIMARY KEY (`id`);
+  ADD PRIMARY KEY (`id`);
 
 --
 -- Indexes for table `login`
 --
 ALTER TABLE `login`
- ADD PRIMARY KEY (`id`);
+  ADD PRIMARY KEY (`id`);
 
 --
 -- Indexes for table `newsletterlog`
 --
 ALTER TABLE `newsletterlog`
- ADD PRIMARY KEY (`id`);
+  ADD PRIMARY KEY (`id`);
 
 --
 -- Indexes for table `room`
 --
 ALTER TABLE `room`
- ADD PRIMARY KEY (`id`);
+  ADD PRIMARY KEY (`id`);
 
 --
 -- Indexes for table `roombook`
 --
 ALTER TABLE `roombook`
- ADD PRIMARY KEY (`id`);
+  ADD PRIMARY KEY (`id`);
 
 --
 -- AUTO_INCREMENT for dumped tables
@@ -194,27 +198,33 @@ ALTER TABLE `roombook`
 -- AUTO_INCREMENT for table `contact`
 --
 ALTER TABLE `contact`
-MODIFY `id` int(10) unsigned NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT;
+
 --
 -- AUTO_INCREMENT for table `login`
 --
 ALTER TABLE `login`
-MODIFY `id` int(10) unsigned NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=3;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+
 --
 -- AUTO_INCREMENT for table `newsletterlog`
 --
 ALTER TABLE `newsletterlog`
-MODIFY `id` int(10) unsigned NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT;
+
 --
 -- AUTO_INCREMENT for table `room`
 --
 ALTER TABLE `room`
-MODIFY `id` int(10) unsigned NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=16;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
+
 --
 -- AUTO_INCREMENT for table `roombook`
 --
 ALTER TABLE `roombook`
-MODIFY `id` int(10) unsigned NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=2;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+COMMIT;
+
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
