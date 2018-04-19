@@ -13,7 +13,7 @@ include('db.php');
 		function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!-- //for-mobile-apps -->
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
-<link href="css/font-awesome.css" rel="stylesheet"> 
+<link href="css/font-awesome.css" rel="stylesheet">
 <link rel="stylesheet" href="css/chocolat.css" type="text/css" media="screen">
 <link href="css/easy-responsive-tabs.css" rel='stylesheet' type='text/css'/>
 <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" property="" />
@@ -33,25 +33,14 @@ include('db.php');
 				<ul class="social-icons3">
 								<li><a href="https://www.facebook.com/" class="fa fa-facebook icon-border facebook"> </a></li>
 								<li><a href="https://twitter.com/" class="fa fa-twitter icon-border twitter"> </a></li>
-								<li><a href="https://plus.google.com/u/0/" class="fa fa-google-plus icon-border googleplus"> </a></li> 
+								<li><a href="https://plus.google.com/u/0/" class="fa fa-google-plus icon-border googleplus"> </a></li>
 							</ul>
 			</div>
 			<div class="contact-bnr-w3-agile">
 				<ul>
 					<li><i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:info@example.com">INFO@SUNRISE.COM</a></li>
-					<li><i class="fa fa-phone" aria-hidden="true"></i>+94 (65)222-44-55</li>	
-					<li class="s-bar">
-						<div class="search">
-							<input class="search_box" type="checkbox" id="search_box">
-							<label class="icon-search" for="search_box"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></label>
-							<div class="search_form">
-								<form action="#" method="post">
-									<input type="search" name="Search" placeholder=" " required=" " />
-									<input type="submit" value="Search">
-								</form>
-							</div>
-						</div>
-					</li>
+					<li><i class="fa fa-phone" aria-hidden="true"></i>+94 (65)222-44-55</li>
+
 				</ul>
 			</div>
 			<div class="clearfix"></div>
@@ -74,9 +63,8 @@ include('db.php');
 						<ul class="nav navbar-nav menu__list">
 							<li class="menu__item menu__item--current"><a href="index.html" class="menu__link">Home</a></li>
 							<li class="menu__item"><a href="#about" class="menu__link scroll">About</a></li>
-							<li class="menu__item"><a href="#team" class="menu__link scroll">Team</a></li>
 							<li class="menu__item"><a href="#gallery" class="menu__link scroll">Gallery</a></li>
-							<li class="menu__item"><a href="#rooms" class="menu__link scroll">Rooms</a></li>
+                            <li class="menu__item"><a href="#rooms" class="menu__link scroll">Rooms</a></li>
 							<li class="menu__item"><a href="#contact" class="menu__link scroll">Contact Us</a></li>
 						</ul>
 					</nav>
@@ -103,7 +91,7 @@ include('db.php');
 									<div class="agileits_w3layouts_more menu__item">
 				<a href="#" class="menu__link" data-toggle="modal" data-target="#myModal">Learn More</a>
 			</div>
-								</div>	
+								</div>
 							</div>
 						</div>
 					</li>
@@ -117,7 +105,7 @@ include('db.php');
 									<div class="agileits_w3layouts_more menu__item">
 				<a href="#" class="menu__link" data-toggle="modal" data-target="#myModal">Learn More</a>
 			</div>
-								</div>	
+								</div>
 							</div>
 						</div>
 					</li>
@@ -145,8 +133,8 @@ include('db.php');
 					<i class="fa fa-long-arrow-down" aria-hidden="true"></i>
 				</a>
 			</div>
-	</div>	
-	<!-- //banner --> 
+	</div>
+	<!-- //banner -->
 <!--//Header-->
 <!-- //Modal1 -->
 <div class="modal fade" id="myModal" tabindex="-1" role="dialog">
@@ -172,52 +160,12 @@ include('db.php');
 
 			<div class="clearfix"> </div>
 </div>
-<!-- banner-bottom -->
-	<div class="banner-bottom">
-		<div class="container">	
-			<div class="agileits_banner_bottom">
-				<h3><span>Experience a good stay, enjoy fantastic offers</span> Find our friendly welcoming reception</h3>
-			</div>
-			<div class="w3ls_banner_bottom_grids">
-				<ul class="cbp-ig-grid">
-					<li>
-						<div class="w3_grid_effect">
-							<span class="cbp-ig-icon w3_road"></span>
-							<h4 class="cbp-ig-title">MASTER BEDROOMS</h4>
-							<span class="cbp-ig-category">SUN RISE</span>
-						</div>
-					</li>
-					<li>
-						<div class="w3_grid_effect">
-							<span class="cbp-ig-icon w3_cube"></span>
-							<h4 class="cbp-ig-title">SEA VIEW BALCONY</h4>
-							<span class="cbp-ig-category">SUN RISE</span>
-						</div>
-					</li>
-					<li>
-						<div class="w3_grid_effect">
-							<span class="cbp-ig-icon w3_users"></span>
-							<h4 class="cbp-ig-title">LARGE CAFE</h4>
-							<span class="cbp-ig-category">SUN RISE</span>
-						</div>
-					</li>
-					<li>
-						<div class="w3_grid_effect">
-							<span class="cbp-ig-icon w3_ticket"></span>
-							<h4 class="cbp-ig-title">WIFI COVERAGE</h4>
-							<span class="cbp-ig-category">SUN RISE</span>
-						</div>
-					</li>
-				</ul>
-			</div>
-		</div>
-	</div>
-<!-- //banner-bottom -->
+
 <!-- /about -->
  	<div class="about-wthree" id="about">
 		  <div class="container">
 				   <div class="ab-w3l-spa">
-                            <h3 class="title-w3-agileits title-black-wthree">About Our SUN RISE</h3> 
+                            <h3 class="title-w3-agileits title-black-wthree">About Our SUN RISE</h3>
 						   <p class="about-para-w3ls">Lorem Ipsum is simply dummy text of the printing and typesetting industry.Sed tempus vestibulum lacus blandit faucibus. Nunc imperdiet, diam nec rhoncus ullamcorper, nisl nulla suscipit ligula, at imperdiet urna</p>
 						   <img src="images/about.jpg" class="img-responsive" alt="Hair Salon">
 										<div class="w3l-slider-img">
@@ -232,134 +180,8 @@ include('db.php');
     </div>
 </div>
  	<!-- //about -->
-<!--sevices-->
-<div class="advantages">
-	<div class="container">
-		<div class="advantages-main">
-				<h3 class="title-w3-agileits">Our Services</h3>
-		   <div class="advantage-bottom">
-			 <div class="col-md-6 advantage-grid left-w3ls wow bounceInLeft" data-wow-delay="0.3s">
-			 	<div class="advantage-block ">
-					<i class="fa fa-credit-card" aria-hidden="true"></i>
-			 		<h4>Stay First, Pay After! </h4>
-			 		<p>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates.</p>
-					<p><i class="fa fa-check" aria-hidden="true"></i>Decorated room, proper air conditioned</p>
-					<p><i class="fa fa-check" aria-hidden="true"></i>Private balcony</p>
-			 		
-			 	</div>
-			 </div>
-			 <div class="col-md-6 advantage-grid right-w3ls wow zoomIn" data-wow-delay="0.3s">
-			 	<div class="advantage-block">
-					<i class="fa fa-clock-o" aria-hidden="true"></i>
-			 		<h4>24 Hour Restaurant</h4>
-			 		<p>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates.</p>
-					<p><i class="fa fa-check" aria-hidden="true"></i>24 hours room service</p>
-					<p><i class="fa fa-check" aria-hidden="true"></i>24-hour Concierge service</p>
-			 	</div>
-			 </div>
-			<div class="clearfix"> </div>
-			</div>
-		</div>
-	</div>
-</div>
-<!--//sevices-->
-<!-- team -->
-<div class="team" id="team">
-	<div class="container">
-			<h3 class="title-w3-agileits title-black-wthree">Meet Our Team</h3>
-			<div id="horizontalTab">
-					<ul class="resp-tabs-list">
-					<li>
-						<img src="images/teams1.jpg" alt=" " class="img-responsive" />
-					</li>
-					<li>
-						<img src="images/teams2.jpg" alt=" " class="img-responsive" />
-					</li>
-					<li>
-						<img src="images/teams3.jpg" alt=" " class="img-responsive" />
-					</li>
-					<li>
-						<img src="images/teams4.jpg" alt=" " class="img-responsive" />
-					</li>
-					</ul>
-					<div class="resp-tabs-container">
-					<div class="tab1">
-						<div class="col-md-6 team-img-w3-agile">
-						</div>
-						<div class="col-md-6 team-Info-agileits">
-							<h4>Lucas Jimenez</h4>
-							<span>Manager</span>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.Lorem ipsum dolor .</p>
-						<div class="social-bnr-agileits footer-icons-agileinfo">
-							<ul class="social-icons3">
-								<li><a href="#" class="fa fa-facebook icon-border facebook"> </a></li>
-								<li><a href="#" class="fa fa-twitter icon-border twitter"> </a></li>
-								<li><a href="#" class="fa fa-google-plus icon-border googleplus"> </a></li> 
-								<li><a href="#" class="fa fa-rss icon-border rss"> </a></li>
-							</ul>
-						</div>							
-						</div>
-						<div class="clearfix"> </div>
-					</div>
-					<div class="tab2">
-					<div class="col-md-6 team-img-w3-agile">
-						</div>
-						<div class="col-md-6 team-Info-agileits">
-							<h4>Sarah Connor</h4>
-							<span>Receptionist</span>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.Lorem ipsum dolor .</p>	
-						<div class="social-bnr-agileits footer-icons-agileinfo">
-							<ul class="social-icons3">
-								<li><a href="#" class="fa fa-facebook icon-border facebook"> </a></li>
-								<li><a href="#" class="fa fa-twitter icon-border twitter"> </a></li>
-								<li><a href="#" class="fa fa-google-plus icon-border googleplus"> </a></li> 
-								<li><a href="#" class="fa fa-rss icon-border rss"> </a></li>
-							</ul>
-						</div>							
-						</div>
-						<div class="clearfix"> </div>
-					</div>
-					<div class="tab3">
-						<div class="col-md-6 team-img-w3-agile">
-						</div>
-						<div class="col-md-6 team-Info-agileits">
-							<h4>Ivan Simpson</h4>
-							<span>Manager</span>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.Lorem ipsum dolor .</p>
-						<div class="social-bnr-agileits footer-icons-agileinfo">
-							<ul class="social-icons3">
-								<li><a href="#" class="fa fa-facebook icon-border facebook"> </a></li>
-								<li><a href="#" class="fa fa-twitter icon-border twitter"> </a></li>
-								<li><a href="#" class="fa fa-google-plus icon-border googleplus"> </a></li> 
-								<li><a href="#" class="fa fa-rss icon-border rss"> </a></li>
-							</ul>
-						</div>							
-						</div>
-						<div class="clearfix"> </div>
-					</div>
-					<div class="tab4">
-					<div class="col-md-6 team-img-w3-agile">
-						</div>
-						<div class="col-md-6 team-Info-agileits">
-							<h4>Marc Gutierrez</h4>
-							<span>Receptionist</span>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.Lorem ipsum dolor .</p>
-						<div class="social-bnr-agileits footer-icons-agileinfo">
-							<ul class="social-icons3">
-								<li><a href="#" class="fa fa-facebook icon-border facebook"> </a></li>
-								<li><a href="#" class="fa fa-twitter icon-border twitter"> </a></li>
-								<li><a href="#" class="fa fa-google-plus icon-border googleplus"> </a></li> 
-								<li><a href="#" class="fa fa-rss icon-border rss"> </a></li>
-							</ul>
-						</div>							
-						</div>
-						<div class="clearfix"> </div>
-					</div>
-					</div>
-			</div>
-	</div>
-</div>
-<!-- //team -->
+
+
 <!-- Gallery -->
 <section class="portfolio-w3ls" id="gallery">
 		 <h3 class="title-w3-agileits title-black-wthree">Our Gallery</h3>
@@ -461,114 +283,114 @@ include('db.php');
 				</div>
 				<div class="clearfix"> </div>
 </section>
-<!-- //gallery -->
-	 <!-- rooms & rates -->
-      <div class="plans-section" id="rooms">
-				 <div class="container">
-				 <h3 class="title-w3-agileits title-black-wthree">Rooms And Rates</h3>
-						<div class="priceing-table-main">
-				 <div class="col-md-3 price-grid">
-					<div class="price-block agile">
-						<div class="price-gd-top">
-						<img src="images/r1.jpg" alt=" " class="img-responsive" />
-							<h4>Deluxe Room</h4>
-						</div>
-						<div class="price-gd-bottom">
-							   <div class="price-list">
-									<ul>
-											<li><i class="fa fa-star" aria-hidden="true"></i></li>
-											<li><i class="fa fa-star" aria-hidden="true"></i></li>
-											<li><i class="fa fa-star" aria-hidden="true"></i></li>
-											<li><i class="fa fa-star" aria-hidden="true"></i></li>
-											<li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-									
-								     </ul>
-							</div>
-							<div class="price-selet">	
-								<h3><span>$</span>320</h3>						
-								<a href="admin/reservation.php" >Book Now</a>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-3 price-grid ">
-					<div class="price-block agile">
-						<div class="price-gd-top">
-						<img src="images/r2.jpg" alt=" " class="img-responsive" />
-							<h4>Luxury Room</h4>
-						</div>
-						<div class="price-gd-bottom">
-							<div class="price-list">
-									<ul>
-									<li><i class="fa fa-star" aria-hidden="true"></i></li>
-									<li><i class="fa fa-star" aria-hidden="true"></i></li>
-									<li><i class="fa fa-star" aria-hidden="true"></i></li>
-									<li><i class="fa fa-star" aria-hidden="true"></i></li>
-									<li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-								</ul>
-							</div>
-							<div class="price-selet">
-								<h3><span>$</span>220</h3>
-								<a href="admin/reservation.php" >Book Now</a>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-3 price-grid lost">
-					<div class="price-block agile">
-						<div class="price-gd-top">
-						<img src="images/r3.jpg" alt=" " class="img-responsive" />
-							<h4>Guest House</h4>
-						</div>
-						<div class="price-gd-bottom">
-							<div class="price-list">
-								<ul>
-									<li><i class="fa fa-star" aria-hidden="true"></i></li>
-									<li><i class="fa fa-star" aria-hidden="true"></i></li>
-									<li><i class="fa fa-star" aria-hidden="true"></i></li>
-									<li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-									<li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-								</ul>
-							</div>
-							<div class="price-selet">
-								<h3><span>$</span>180</h3>
-								<a href="admin/reservation.php" >Book Now</a>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-3 price-grid wthree lost">
-					<div class="price-block agile">
-						<div class="price-gd-top ">
-							<img src="images/r4.jpg" alt=" " class="img-responsive" />
-							<h4>Single Room</h4>
-						</div>
-						<div class="price-gd-bottom">
-							<div class="price-list">
-								<ul>
-									<li><i class="fa fa-star" aria-hidden="true"></i></li>
-									<li><i class="fa fa-star" aria-hidden="true"></i></li>
-									<li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-									<li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-									<li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-								</ul>
-							</div>
-							<div class="price-selet">
-								<h3><span>$</span> 150</h3>
-								<a href="admin/reservation.php" >Book Now</a>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="clearfix"> </div>
-			</div>
-		</div>
-	</div>
-	 <!--// rooms & rates -->
+	<!-- //gallery -->
+<!-- rooms & rates -->
+<div class="plans-section" id="rooms">
+    <div class="container">
+        <h3 class="title-w3-agileits title-black-wthree">Rooms And Rates</h3>
+        <div class="priceing-table-main">
+            <div class="col-md-3 price-grid">
+                <div class="price-block agile">
+                    <div class="price-gd-top">
+                        <img src="images/r1.jpg" alt=" " class="img-responsive" />
+                        <h4>Deluxe Room</h4>
+                    </div>
+                    <div class="price-gd-bottom">
+                        <div class="price-list">
+                            <ul>
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+
+                            </ul>
+                        </div>
+                        <div class="price-selet">
+                            <h3><span>$</span>320</h3>
+                            <a href="admin/reservation.php" >Book Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 price-grid ">
+                <div class="price-block agile">
+                    <div class="price-gd-top">
+                        <img src="images/r2.jpg" alt=" " class="img-responsive" />
+                        <h4>Luxury Room</h4>
+                    </div>
+                    <div class="price-gd-bottom">
+                        <div class="price-list">
+                            <ul>
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                            </ul>
+                        </div>
+                        <div class="price-selet">
+                            <h3><span>$</span>220</h3>
+                            <a href="admin/reservation.php" >Book Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 price-grid lost">
+                <div class="price-block agile">
+                    <div class="price-gd-top">
+                        <img src="images/r3.jpg" alt=" " class="img-responsive" />
+                        <h4>Guest House</h4>
+                    </div>
+                    <div class="price-gd-bottom">
+                        <div class="price-list">
+                            <ul>
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                            </ul>
+                        </div>
+                        <div class="price-selet">
+                            <h3><span>$</span>180</h3>
+                            <a href="admin/reservation.php" >Book Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 price-grid wthree lost">
+                <div class="price-block agile">
+                    <div class="price-gd-top ">
+                        <img src="images/r4.jpg" alt=" " class="img-responsive" />
+                        <h4>Single Room</h4>
+                    </div>
+                    <div class="price-gd-bottom">
+                        <div class="price-list">
+                            <ul>
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                            </ul>
+                        </div>
+                        <div class="price-selet">
+                            <h3><span>$</span> 150</h3>
+                            <a href="admin/reservation.php" >Book Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="clearfix"> </div>
+        </div>
+    </div>
+</div>
+<!--// rooms & rates -->
   <!-- visitors -->
 	<div class="w3l-visitors-agile" >
 		<div class="container">
-                 <h3 class="title-w3-agileits title-black-wthree">What other visitors experienced</h3> 
+                 <h3 class="title-w3-agileits title-black-wthree">What other visitors experienced</h3>
 		</div>
 		<div class="w3layouts_work_grids">
 			<section class="slider">
@@ -590,8 +412,8 @@ include('db.php');
 								<i class="fa fa-star" aria-hidden="true"></i>
 								Worth to come again
 								</h4>
-								<p>Sed tempus vestibulum lacus blandit faucibus. 
-									Nunc imperdiet, diam nec rhoncus ullamcorper, nisl nulla suscipit ligula, 
+								<p>Sed tempus vestibulum lacus blandit faucibus.
+									Nunc imperdiet, diam nec rhoncus ullamcorper, nisl nulla suscipit ligula,
 									at imperdiet urna. </p>
 								<h5>Julia Rose</h5>
 								<p>Germany</p>
@@ -614,8 +436,8 @@ include('db.php');
 								<i class="fa fa-star-o" aria-hidden="true"></i>
 								Worth to come again
 								</h4>
-								<p>Sed tempus vestibulum lacus blandit faucibus. 
-									Nunc imperdiet, diam nec rhoncus ullamcorper, nisl nulla suscipit ligula, 
+								<p>Sed tempus vestibulum lacus blandit faucibus.
+									Nunc imperdiet, diam nec rhoncus ullamcorper, nisl nulla suscipit ligula,
 									at imperdiet urna. </p>
 								<h5>Jahnatan Smith</h5>
 								<p>United States</p>
@@ -638,8 +460,8 @@ include('db.php');
 								<i class="fa fa-star-o" aria-hidden="true"></i>
 								Worth to come again
 								</h4>
-								<p>Sed tempus vestibulum lacus blandit faucibus. 
-									Nunc imperdiet, diam nec rhoncus ullamcorper, nisl nulla suscipit ligula, 
+								<p>Sed tempus vestibulum lacus blandit faucibus.
+									Nunc imperdiet, diam nec rhoncus ullamcorper, nisl nulla suscipit ligula,
 									at imperdiet urna. </p>
 								<h5>Rosalind Cloer</h5>
 								<p>Italy</p>
@@ -662,8 +484,8 @@ include('db.php');
 								<i class="fa fa-star-o" aria-hidden="true"></i>
 								Worth to come again
 								</h4>
-								<p>Sed tempus vestibulum lacus blandit faucibus. 
-									Nunc imperdiet, diam nec rhoncus ullamcorper, nisl nulla suscipit ligula, 
+								<p>Sed tempus vestibulum lacus blandit faucibus.
+									Nunc imperdiet, diam nec rhoncus ullamcorper, nisl nulla suscipit ligula,
 									at imperdiet urna. </p>
 								<h5>Amie Bublitz</h5>
 								<p>Switzerland</p>
@@ -673,7 +495,7 @@ include('db.php');
 					</ul>
 				</div>
 			</section>
-		</div>	
+		</div>
 	</div>
   <!-- visitors -->
 <!-- contact -->
@@ -685,29 +507,29 @@ include('db.php');
 				<p class="contact-agile2">Sign Up For Our News Letters</p>
 				<form  method="post" name="sentMessage" id="contactForm" >
 					<div class="control-group form-group">
-                        
+
                             <label class="contact-p1">Full Name:</label>
                             <input type="text" class="form-control" name="name" id="name" required >
                             <p class="help-block"></p>
-                       
-                    </div>	
+
+                    </div>
                     <div class="control-group form-group">
-                        
+
                             <label class="contact-p1">Phone Number:</label>
                             <input type="tel" class="form-control" name="phone" id="phone" required >
 							<p class="help-block"></p>
-						
+
                     </div>
                     <div class="control-group form-group">
-                        
+
                             <label class="contact-p1">Email Address:</label>
                             <input type="email" class="form-control" name="email" id="email" required >
 							<p class="help-block"></p>
-						
+
                     </div>
-                    
-                    
-                    <input type="submit" name="sub" value="Send Now" class="btn btn-primary">	
+
+
+                    <input type="submit" name="sub" value="Send Now" class="btn btn-primary">
 				</form>
 				<?php
 				if(isset($_POST['sub']))
@@ -717,11 +539,11 @@ include('db.php');
 					$email = $_POST['email'];
 					$approval = "Not Allowed";
 					$sql = "INSERT INTO `contact`(`fullname`, `phoneno`, `email`,`cdate`,`approval`) VALUES ('$name','$phone','$email',now(),'$approval')" ;
-					
-					
+
+
 					if(mysqli_query($con,$sql))
 					echo"OK";
-					
+
 				}
 				?>
 			</div>
@@ -731,13 +553,13 @@ include('db.php');
 			<p class="contact-agile1"><strong>Phone :</strong>+94 (65)222-44-55</p>
 			<p class="contact-agile1"><strong>Email :</strong> <a href="mailto:name@example.com">INFO@SUNRISE.COM</a></p>
 			<p class="contact-agile1"><strong>Address :</strong> New Kalmunai Road, Batticaloa, Sri Lanka</p>
-																
+
 			<div class="social-bnr-agileits footer-icons-agileinfo">
 				<ul class="social-icons3">
 								<li><a href="#" class="fa fa-facebook icon-border facebook"> </a></li>
 								<li><a href="#" class="fa fa-twitter icon-border twitter"> </a></li>
-								<li><a href="#" class="fa fa-google-plus icon-border googleplus"> </a></li> 
-								
+								<li><a href="#" class="fa fa-google-plus icon-border googleplus"> </a></li>
+
 							</ul>
 			</div>
 			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3074.7905052320443!2d-77.84987248482734!3d39.586871613613056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c9f6a80ccf0661%3A0x7210426c67abc40!2sVirginia+Welcome+Center%2FSafety+Rest+Area!5e0!3m2!1sen!2sin!4v1485760915662" ></iframe>
@@ -755,7 +577,7 @@ include('db.php');
 <!-- contact form -->
 <script src="js/jqBootstrapValidation.js"></script>
 
-<!-- /contact form -->	
+<!-- /contact form -->
 <!-- Calendar -->
 		<script src="js/jquery-ui.js"></script>
 		<script>
@@ -766,7 +588,7 @@ include('db.php');
 <!-- //Calendar -->
 <!-- gallery popup -->
 <link rel="stylesheet" href="css/swipebox.css">
-				<script src="js/jquery.swipebox.min.js"></script> 
+				<script src="js/jquery.swipebox.min.js"></script>
 					<script type="text/javascript">
 						jQuery(function($) {
 							$(".swipebox").swipebox();
@@ -778,7 +600,7 @@ include('db.php');
 <script type="text/javascript" src="js/easing.js"></script>
 <script type="text/javascript">
 	jQuery(document).ready(function($) {
-		$(".scroll").click(function(event){		
+		$(".scroll").click(function(event){
 			event.preventDefault();
 			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
 		});
@@ -816,18 +638,18 @@ include('db.php');
 							  $('.events').append("<li>after event fired.</li>");
 							}
 						  });
-					
+
 						});
 			</script>
 		<!--search-bar-->
-		<script src="js/main.js"></script>	
+		<script src="js/main.js"></script>
 <!--//search-bar-->
 <!--tabs-->
 <script src="js/easy-responsive-tabs.js"></script>
 <script>
 $(document).ready(function () {
 $('#horizontalTab').easyResponsiveTabs({
-type: 'default', //Types: default, vertical, accordion           
+type: 'default', //Types: default, vertical, accordion
 width: 'auto', //auto or any width like 600px
 fit: true,   // 100% fit in a container
 closed: 'accordion', // Start closed if in accordion view
@@ -855,13 +677,13 @@ fit: true
 			containerID: 'toTop', // fading element id
 			containerHoverID: 'toTopHover', // fading element hover id
 			scrollSpeed: 1200,
-			easingType: 'linear' 
+			easingType: 'linear'
 			};
-		*/								
+		*/
 		$().UItoTop({ easingType: 'easeOutQuart' });
 		});
 	</script>
-	
+
 	<div class="arr-w3ls">
 	<a href="#home" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
 	</div>
@@ -869,5 +691,3 @@ fit: true
 <script type="text/javascript" src="js/bootstrap-3.1.1.min.js"></script>
 </body>
 </html>
-
-
