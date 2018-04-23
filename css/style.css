@@ -216,7 +216,7 @@ label.icon-search span {
 /*--//search--*/
 /*-- nav --*/
 .w3_navigation {
-    background: #0f2453 ;
+    background: #f4f4f4 ;
 }
 .navbar-default {
     background: none;
@@ -285,7 +285,7 @@ p.logo_w3l_agile_caption {
     text-transform: uppercase;
     letter-spacing: 5.7px;
     font-size: 11px;
-    color: #c79f07;
+    color: #373737;
     text-shadow: 0px 1px 3px #454a47;
     font-family: 'Lato', sans-serif;
     font-weight: 600;
