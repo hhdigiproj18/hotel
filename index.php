@@ -47,7 +47,7 @@ include('db.php');
 		</div>
 	<div class="w3_navigation">
 		<div class="container">
-			<nav class="navbar navbar-default">
+			<nav class="navbar navbar-default ">
 				<div class="navbar-header navbar-left">
 					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
 						<span class="sr-only">Toggle navigation</span>
@@ -61,10 +61,10 @@ include('db.php');
 				<div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
 					<nav class="menu menu--iris">
 						<ul class="nav navbar-nav menu__list">
-							<li class="menu__item menu__item--current"><a href="index.html" class="menu__link">Etusivu</a></li>
+							<li class="menu__item menu__item--current"><a href="index.php" class="menu__link">Etusivu</a></li>
 							<li class="menu__item"><a href="#about" class="menu__link scroll">Tietoa</a></li>
 							<li class="menu__item"><a href="#gallery" class="menu__link scroll">Galleria</a></li>
-                            <li class="menu__item"><a href="#rooms" class="menu__link scroll">Rooms</a></li>
+                            <li class="menu__item"><a href="#rooms" class="menu__link scroll">Huoneet</a></li>
 							<li class="menu__item"><a href="#contact" class="menu__link scroll">Ota Yhteyttä</a></li>
 						</ul>
 					</nav>
