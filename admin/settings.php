@@ -1,10 +1,10 @@
-<?php  
-session_start();  
+<?php
+session_start();
 if(!isset($_SESSION["user"]))
 {
  header("location:index.php");
 }
-?> 
+?>
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -34,13 +34,13 @@ if(!isset($_SESSION["user"]))
             </div>
 
             <ul class="nav navbar-top-links navbar-right">
-			
+
                 <li class="dropdown">
                     <a class="dropdown-toggle" data-toggle="dropdown" href="#" aria-expanded="false">
                         <i class="fa fa-user fa-fw"></i> <i class="fa fa-caret-down"></i>
                     </a>
                     <ul class="dropdown-menu dropdown-user">
-                        <li><a href="#"><i class="fa fa-user fa-fw"></i> User Profile</a>
+                        <li><a href="usersetting.php"><i class="fa fa-user fa-fw"></i> User Profile</a>
                         </li>
                         <li><a href="settings.php"><i class="fa fa-gear fa-fw"></i> Settings</a>
                         </li>
@@ -48,7 +48,7 @@ if(!isset($_SESSION["user"]))
                         <li><a href="logout.php"><i class="fa fa-sign-out fa-fw"></i> Logout</a>
                         </li>
                     </ul>
-					
+
                     <!-- /.dropdown-user -->
                 </li>
                 <!-- /.dropdown -->
@@ -68,14 +68,14 @@ if(!isset($_SESSION["user"]))
                     <li>
                         <a   href="roomdel.php"><i class="fa fa-pencil-square-o"></i> Delete Room</a>
                     </li>
-					
 
-                    
+
+
             </div>
 
         </nav>
         <!-- /. NAV SIDE  -->
-       
+
         <div id="page-wrapper" >
             <div id="page-inner">
 			 <div class="row">
@@ -84,22 +84,22 @@ if(!isset($_SESSION["user"]))
                            Available <small> Rooms</small>
                         </h1>
                     </div>
-                </div> 
-                 
-                                 
+                </div>
+
+
             <?php
 						include ('db.php');
 						$sql = "select * from room";
 						$re = mysqli_query($con,$sql)
 				?>
                 <div class="row">
-				
-				
+
+
 				<?php
 										while($row= mysqli_fetch_array($re))
 										{
 												$id = $row['type'];
-											if($id == "Superior Room") 
+											if($id == "Superior Room")
 											{
 												echo"<div class='col-md-3 col-sm-12 col-xs-12'>
 													<div class='panel panel-primary text-center no-boder bg-color-blue'>
@@ -128,7 +128,7 @@ if(!isset($_SESSION["user"]))
 														</div>
 													</div>
 												</div>";
-											
+
 											}
 											else if($id =="Guest House")
 											{
@@ -144,7 +144,7 @@ if(!isset($_SESSION["user"]))
 														</div>
 													</div>
 												</div>";
-											
+
 											}
 											else if($id =="Single Room")
 											{
@@ -160,17 +160,17 @@ if(!isset($_SESSION["user"]))
 														</div>
 													</div>
 												</div>";
-											
+
 											}
 										}
 									?>
-                    
+
                 </div>
                 <!-- /. ROW  -->
-                
-                                
-                  
-            
+
+
+
+
 			 <!-- /. PAGE INNER  -->
             </div>
          <!-- /. PAGE WRAPPER  -->
@@ -185,7 +185,7 @@ if(!isset($_SESSION["user"]))
     <script src="assets/js/jquery.metisMenu.js"></script>
       <!-- Custom Js -->
     <script src="assets/js/custom-scripts.js"></script>
-    
-   
+
+
 </body>
 </html>
