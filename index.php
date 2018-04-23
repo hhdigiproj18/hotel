@@ -293,7 +293,7 @@ include('db.php');
                 <div class="price-block agile">
                     <div class="price-gd-top">
                         <img src="images/r1.jpg" alt=" " class="img-responsive" />
-                        <h4>Deluxe Room</h4>
+                        <h4>Luxury huone 2hh</h4>
                     </div>
                     <div class="price-gd-bottom">
                         <div class="price-list">
@@ -307,8 +307,8 @@ include('db.php');
                             </ul>
                         </div>
                         <div class="price-selet">
-                            <h3><span>$</span>320</h3>
-                            <a href="admin/reservation.php" >Book Now</a>
+                            <h3><span>€</span>320</h3>
+                            <a href="admin/reservation.php" >Varaa</a>
                         </div>
                     </div>
                 </div>
@@ -317,7 +317,7 @@ include('db.php');
                 <div class="price-block agile">
                     <div class="price-gd-top">
                         <img src="images/r2.jpg" alt=" " class="img-responsive" />
-                        <h4>Luxury Room</h4>
+                        <h4>Luxury huone 1hh</h4>
                     </div>
                     <div class="price-gd-bottom">
                         <div class="price-list">
@@ -330,8 +330,8 @@ include('db.php');
                             </ul>
                         </div>
                         <div class="price-selet">
-                            <h3><span>$</span>220</h3>
-                            <a href="admin/reservation.php" >Book Now</a>
+                            <h3><span>€</span>220</h3>
+                            <a href="admin/reservation.php" >Varaa</a>
                         </div>
                     </div>
                 </div>
@@ -340,7 +340,7 @@ include('db.php');
                 <div class="price-block agile">
                     <div class="price-gd-top">
                         <img src="images/r3.jpg" alt=" " class="img-responsive" />
-                        <h4>Guest House</h4>
+                        <h4>Deluxe huone 2hh</h4>
                     </div>
                     <div class="price-gd-bottom">
                         <div class="price-list">
@@ -353,8 +353,8 @@ include('db.php');
                             </ul>
                         </div>
                         <div class="price-selet">
-                            <h3><span>$</span>180</h3>
-                            <a href="admin/reservation.php" >Book Now</a>
+                            <h3><span>€</span>180</h3>
+                            <a href="admin/reservation.php" >Varaa</a>
                         </div>
                     </div>
                 </div>
@@ -363,7 +363,7 @@ include('db.php');
                 <div class="price-block agile">
                     <div class="price-gd-top ">
                         <img src="images/r4.jpg" alt=" " class="img-responsive" />
-                        <h4>Single Room</h4>
+                        <h4>Deluxe huone 1hh</h4>
                     </div>
                     <div class="price-gd-bottom">
                         <div class="price-list">
@@ -376,8 +376,8 @@ include('db.php');
                             </ul>
                         </div>
                         <div class="price-selet">
-                            <h3><span>$</span> 150</h3>
-                            <a href="admin/reservation.php" >Book Now</a>
+                            <h3><span>€</span> 150</h3>
+                            <a href="admin/reservation.php" >Varaa</a>
                         </div>
                     </div>
                 </div>
@@ -509,27 +509,27 @@ include('db.php');
 					<div class="control-group form-group">
 
                             <label class="contact-p1">Koko Nimi:</label>
-                            <input type="text" class="form-control" name="name" id="name" required >
+                            <input type="text" class="form-control" name="name" id="name" placeholder="Anna tiedot muodossa Etunimi Sukunimi" required >
                             <p class="help-block"></p>
 
                     </div>
                     <div class="control-group form-group">
 
                             <label class="contact-p1">Puhelin Numero:</label>
-                            <input type="tel" class="form-control" name="phone" id="phone" required >
+                            <input type="tel" class="form-control" name="phone" id="phone" placeholder="Puhelin muodossa 040 1234567" required >
 							<p class="help-block"></p>
 
                     </div>
                     <div class="control-group form-group">
 
                             <label class="contact-p1">Sähköposti Osoite:</label>
-                            <input type="email" class="form-control" name="email" id="email" required >
+                            <input type="email" class="form-control" name="email" id="email" placeholder="Sähköposti muodossa example@hotmail.com" required >
 							<p class="help-block"></p>
 
                     </div>
 
 
-                    <input type="submit" name="sub" value="Send Now" class="btn btn-primary">
+                    <input type="submit" name="sub" value="Lähetä" class="btn btn-primary">
 				</form>
 				<?php
 				if(isset($_POST['sub']))
