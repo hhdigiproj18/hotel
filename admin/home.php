@@ -370,21 +370,21 @@ if(!isset($_SESSION["user"]))
 										<form method='post>
                                         <div class='modal-body'>
                                             <div class='form-group'>
-                                            <label>Change User name</label>
-                                            <input name='usname' value='<?php echo $fname; ?>' class='form-control' placeholder='Enter User name'>
+                                            <label>Vaihda käyttäjänimi</label>
+                                            <input name='usname' value='<?php echo $_SESSION["user"]; ?>' class='form-control' placeholder='Vaihda käyttäjänimi'>
 											</div>
 										</div>
 										<div class='modal-body'>
                                             <div class='form-group'>
-                                            <label>Change Password</label>
-                                            <input name='pasd' value='<?php echo $ps; ?>' class='form-control' placeholder='Enter Password'>
+                                            <label>Vaihda salasana</label>
+                                            <input name='pasd' value='' class='form-control' placeholder='Vaihda salasana'>
 											</div>
                                         </div>
 
                                         <div class='modal-footer'>
-                                            <button type='button' class='btn btn-default' data-dismiss='modal'>Close</button>
+                                            <button type='button' class='btn btn-default' data-dismiss='modal'>Sulje</button>
 
-                                           <input type='submit' name='up' value='Update' class='btn btn-primary'>
+                                           <input type='submit' name='up' value='Päivitä' class='btn btn-primary'>
 										  </form>
 
                                         </div>
