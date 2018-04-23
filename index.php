@@ -55,17 +55,17 @@ include('db.php');
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<h1><a class="navbar-brand" href="index.php">SUN <span>RISE</span><p class="logo_w3l_agile_caption">Your Dreamy Resort</p></a></h1>
+					<h1><a class="navbar-brand" href="index.php">LUXURY<span>HOTEL</span><p class="logo_w3l_agile_caption">PARIS</p></a></h1>
 				</div>
 				<!-- Collect the nav links, forms, and other content for toggling -->
 				<div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
 					<nav class="menu menu--iris">
 						<ul class="nav navbar-nav menu__list">
-							<li class="menu__item menu__item--current"><a href="index.html" class="menu__link">Home</a></li>
-							<li class="menu__item"><a href="#about" class="menu__link scroll">About</a></li>
-							<li class="menu__item"><a href="#gallery" class="menu__link scroll">Gallery</a></li>
+							<li class="menu__item menu__item--current"><a href="index.html" class="menu__link">Etusivu</a></li>
+							<li class="menu__item"><a href="#about" class="menu__link scroll">Tietoa</a></li>
+							<li class="menu__item"><a href="#gallery" class="menu__link scroll">Galleria</a></li>
                             <li class="menu__item"><a href="#rooms" class="menu__link scroll">Rooms</a></li>
-							<li class="menu__item"><a href="#contact" class="menu__link scroll">Contact Us</a></li>
+							<li class="menu__item"><a href="#contact" class="menu__link scroll">Ota Yhteyttä</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -85,11 +85,11 @@ include('db.php');
 
 							<div class="container">
 								<div class="agileits-banner-info">
-								<h4>SUN RISE</h4>
-									<h3>We know what you love</h3>
-										<p>Welcome to our hotels</p>
+								<h4>Luxury Hotel Paris</h4>
+									<h3>Me tiedämme mistä pidät</h3>
+										<p>Tervetuloa Hotelliimme</p>
 									<div class="agileits_w3layouts_more menu__item">
-				<a href="#" class="menu__link" data-toggle="modal" data-target="#myModal">Learn More</a>
+				<a href="#" class="menu__link" data-toggle="modal" data-target="#myModal">Lisätietoa</a>
 			</div>
 								</div>
 							</div>
@@ -99,11 +99,11 @@ include('db.php');
 						<div class="w3layouts-banner-top w3layouts-banner-top1">
 							<div class="container">
 								<div class="agileits-banner-info">
-								<h4>SUN RISE</h4>
-									<h3>Stay with friends & families</h3>
-										<p>Come & enjoy precious moment with us</p>
+								<h4>Luxury Hotel Paris</h4>
+									<h3>Majoitu ystäviesi & perheen kanssa</h3>
+										<p>Tule & Nauti arvokkaista hetkistä meidän kanssamme</p>
 									<div class="agileits_w3layouts_more menu__item">
-				<a href="#" class="menu__link" data-toggle="modal" data-target="#myModal">Learn More</a>
+				<a href="#" class="menu__link" data-toggle="modal" data-target="#myModal">Lisätietoa</a>
 			</div>
 								</div>
 							</div>
@@ -113,11 +113,11 @@ include('db.php');
 						<div class="w3layouts-banner-top w3layouts-banner-top2">
 							<div class="container">
 								<div class="agileits-banner-info">
-								<h4>SUN RISE</h4>
-								<h3>want luxurious vacation?</h3>
-										<p>Get accommodation today</p>
+								<h4>Luxury Hotel Paris</h4>
+								<h3>Kaipaatko Hieman Luksusta Lomaasi ?</h3>
+										<p>Varaa jo tänään</p>
 									<div class="agileits_w3layouts_more menu__item">
-											<a href="#" class="menu__link" data-toggle="modal" data-target="#myModal">Learn More</a>
+											<a href="#" class="menu__link" data-toggle="modal" data-target="#myModal">lisätietoa</a>
 										</div>
 								</div>
 							</div>
@@ -155,7 +155,7 @@ include('db.php');
 <!-- //Modal1 -->
 <div id="availability-agileits">
 <div class="col-md-12 book-form-left-w3layouts">
-	<a href="admin/reservation.php"><h2>ROOM RESERVATION</h2></a>
+	<a href="admin/reservation.php"><h2>Varaa Huone</h2></a>
 </div>
 
 			<div class="clearfix"> </div>
@@ -165,7 +165,7 @@ include('db.php');
  	<div class="about-wthree" id="about">
 		  <div class="container">
 				   <div class="ab-w3l-spa">
-                            <h3 class="title-w3-agileits title-black-wthree">About Our SUN RISE</h3>
+                            <h3 class="title-w3-agileits title-black-wthree">Luxury Hotel Paris</h3>
 						   <p class="about-para-w3ls">Lorem Ipsum is simply dummy text of the printing and typesetting industry.Sed tempus vestibulum lacus blandit faucibus. Nunc imperdiet, diam nec rhoncus ullamcorper, nisl nulla suscipit ligula, at imperdiet urna</p>
 						   <img src="images/about.jpg" class="img-responsive" alt="Hair Salon">
 										<div class="w3l-slider-img">
@@ -184,11 +184,11 @@ include('db.php');
 
 <!-- Gallery -->
 <section class="portfolio-w3ls" id="gallery">
-		 <h3 class="title-w3-agileits title-black-wthree">Our Gallery</h3>
+		 <h3 class="title-w3-agileits title-black-wthree">Meidän kuvagalleriamme</h3>
 				<div class="col-md-3 gallery-grid gallery1">
 					<a href="images/g1.jpg" class="swipebox"><img src="images/g1.jpg" class="img-responsive" alt="/">
 						<div class="textbox">
-						<h4>SUN RISE</h4>
+						<h4>Luxury Hotel Paris</h4>
 							<p><i class="fa fa-picture-o" aria-hidden="true"></i></p>
 						</div>
 				</a>
@@ -196,7 +196,7 @@ include('db.php');
 				<div class="col-md-3 gallery-grid gallery1">
 					<a href="images/g2.jpg" class="swipebox"><img src="images/g2.jpg" class="img-responsive" alt="/">
 						<div class="textbox">
-						<h4>SUN RISE</h4>
+						<h4>Luxury Hotel Paris</h4>
 							<p><i class="fa fa-picture-o" aria-hidden="true"></i></p>
 						</div>
 				</a>
@@ -204,7 +204,7 @@ include('db.php');
 				<div class="col-md-3 gallery-grid gallery1">
 					<a href="images/g3.jpg" class="swipebox"><img src="images/g3.jpg" class="img-responsive" alt="/">
 						<div class="textbox">
-						<h4>SUN RISE</h4>
+						<h4>Luxury Hotel Paris</h4>
 							<p><i class="fa fa-picture-o" aria-hidden="true"></i></p>
 						</div>
 				</a>
@@ -212,7 +212,7 @@ include('db.php');
 				<div class="col-md-3 gallery-grid gallery1">
 					<a href="images/g4.jpg" class="swipebox"><img src="images/g4.jpg" class="img-responsive" alt="/">
 						<div class="textbox">
-						<h4>SUN RISE</h4>
+						<h4>Luxury Hotel Paris</h4>
 							<p><i class="fa fa-picture-o" aria-hidden="true"></i></p>
 						</div>
 				</a>
@@ -220,7 +220,7 @@ include('db.php');
 				<div class="col-md-3 gallery-grid gallery1">
 					<a href="images/g5.jpg" class="swipebox"><img src="images/g5.jpg" class="img-responsive" alt="/">
 						<div class="textbox">
-						<h4>SUN RISE</h4>
+						<h4>Luxury Hotel Paris</h4>
 							<p><i class="fa fa-picture-o" aria-hidden="true"></i></p>
 						</div>
 					</a>
@@ -228,7 +228,7 @@ include('db.php');
 				<div class="col-md-3 gallery-grid gallery1">
 					<a href="images/g6.jpg" class="swipebox"><img src="images/g6.jpg" class="img-responsive" alt="/">
 						<div class="textbox">
-						<h4>SUN RISE</h4>
+						<h4>Luxury Hotel Paris</h4>
 							<p><i class="fa fa-picture-o" aria-hidden="true"></i></p>
 					   </div>
 				   </a>
@@ -236,7 +236,7 @@ include('db.php');
 				<div class="col-md-3 gallery-grid gallery1">
 					<a href="images/g6.jpg" class="swipebox"><img src="images/g7.jpg" class="img-responsive" alt="/">
 						<div class="textbox">
-						<h4>SUN RISE</h4>
+						<h4>Luxury Hotel Paris</h4>
 							<p><i class="fa fa-picture-o" aria-hidden="true"></i></p>
 					   </div>
 				   </a>
@@ -244,7 +244,7 @@ include('db.php');
 				<div class="col-md-3 gallery-grid gallery1">
 					<a href="images/g6.jpg" class="swipebox"><img src="images/g8.jpg" class="img-responsive" alt="/">
 						<div class="textbox">
-						<h4>SUN RISE</h4>
+						<h4>Luxury Hotel Paris</h4>
 							<p><i class="fa fa-picture-o" aria-hidden="true"></i></p>
 					   </div>
 				   </a>
@@ -252,7 +252,7 @@ include('db.php');
 					<div class="col-md-3 gallery-grid gallery1">
 					<a href="images/g9.jpg" class="swipebox"><img src="images/g9.jpg" class="img-responsive" alt="/">
 						<div class="textbox">
-						<h4>SUN RISE</h4>
+						<h4>Luxury Hotel Paris</h4>
 							<p><i class="fa fa-picture-o" aria-hidden="true"></i></p>
 						</div>
 				</a>
@@ -260,7 +260,7 @@ include('db.php');
 				<div class="col-md-3 gallery-grid gallery1">
 					<a href="images/g10.jpg" class="swipebox"><img src="images/g10.jpg" class="img-responsive" alt="/">
 						<div class="textbox">
-						<h4>SUN RISE</h4>
+						<h4>Luxury Hotel Paris</h4>
 							<p><i class="fa fa-picture-o" aria-hidden="true"></i></p>
 						</div>
 				</a>
@@ -268,7 +268,7 @@ include('db.php');
 				<div class="col-md-3 gallery-grid gallery1">
 					<a href="images/g4.jpg" class="swipebox"><img src="images/g4.jpg" class="img-responsive" alt="/">
 						<div class="textbox">
-						<h4>SUN RISE</h4>
+						<h4>Luxury Hotel Paris</h4>
 							<p><i class="fa fa-picture-o" aria-hidden="true"></i></p>
 						</div>
 				</a>
@@ -276,7 +276,7 @@ include('db.php');
 				<div class="col-md-3 gallery-grid gallery1">
 					<a href="images/g2.jpg" class="swipebox"><img src="images/g2.jpg" class="img-responsive" alt="/">
 						<div class="textbox">
-						<h4>SUN RISE</h4>
+						<h4>Luxury Hotel Paris</h4>
 							<p><i class="fa fa-picture-o" aria-hidden="true"></i></p>
 						</div>
 				</a>
@@ -287,7 +287,7 @@ include('db.php');
 <!-- rooms & rates -->
 <div class="plans-section" id="rooms">
     <div class="container">
-        <h3 class="title-w3-agileits title-black-wthree">Rooms And Rates</h3>
+        <h3 class="title-w3-agileits title-black-wthree">Huoneet & Arvostelut</h3>
         <div class="priceing-table-main">
             <div class="col-md-3 price-grid">
                 <div class="price-block agile">
@@ -390,7 +390,7 @@ include('db.php');
   <!-- visitors -->
 	<div class="w3l-visitors-agile" >
 		<div class="container">
-                 <h3 class="title-w3-agileits title-black-wthree">What other visitors experienced</h3>
+                 <h3 class="title-w3-agileits title-black-wthree">Kokemuksia</h3>
 		</div>
 		<div class="w3layouts_work_grids">
 			<section class="slider">
@@ -503,26 +503,26 @@ include('db.php');
 	<div class="container">
 		<div class="col-lg-6 col-md-6 col-sm-6 contact-w3-agile2" data-aos="flip-left">
 			<div class="contact-agileits">
-				<h4>Contact Us</h4>
-				<p class="contact-agile2">Sign Up For Our News Letters</p>
+				<h4>Registeröidy</h4>
+				<p class="contact-agile2">Registeröidy ja tilaa uutiskirjeemme</p>
 				<form  method="post" name="sentMessage" id="contactForm" >
 					<div class="control-group form-group">
 
-                            <label class="contact-p1">Full Name:</label>
+                            <label class="contact-p1">Koko Nimi:</label>
                             <input type="text" class="form-control" name="name" id="name" required >
                             <p class="help-block"></p>
 
                     </div>
                     <div class="control-group form-group">
 
-                            <label class="contact-p1">Phone Number:</label>
+                            <label class="contact-p1">Puhelin Numero:</label>
                             <input type="tel" class="form-control" name="phone" id="phone" required >
 							<p class="help-block"></p>
 
                     </div>
                     <div class="control-group form-group">
 
-                            <label class="contact-p1">Email Address:</label>
+                            <label class="contact-p1">Sähköposti Osoite:</label>
                             <input type="email" class="form-control" name="email" id="email" required >
 							<p class="help-block"></p>
 
@@ -549,10 +549,10 @@ include('db.php');
 			</div>
 		</div>
 		<div class="col-lg-6 col-md-6 col-sm-6 contact-w3-agile1" data-aos="flip-right">
-			<h4>Connect With Us</h4>
-			<p class="contact-agile1"><strong>Phone :</strong>+94 (65)222-44-55</p>
-			<p class="contact-agile1"><strong>Email :</strong> <a href="mailto:name@example.com">INFO@SUNRISE.COM</a></p>
-			<p class="contact-agile1"><strong>Address :</strong> New Kalmunai Road, Batticaloa, Sri Lanka</p>
+			<h4>Ole Meihin Yhteydessä!</h4>
+			<p class="contact-agile1"><strong>Puhelin :</strong>+94 (65)222-44-55</p>
+			<p class="contact-agile1"><strong>Sähköpostiosoite :</strong> <a href="mailto:name@example.com">INFO@SUNRISE.COM</a></p>
+			<p class="contact-agile1"><strong>Osoite :</strong> Helsinki, Ratapihantie 14, Suomi</p>
 
 			<div class="social-bnr-agileits footer-icons-agileinfo">
 				<ul class="social-icons3">
@@ -569,7 +569,7 @@ include('db.php');
 </section>
 <!-- /contact -->
 			<div class="copy">
-		        <p>© 2017 SUNRISE . All Rights Reserved | Design by <a href="index.php">SUNRISE</a> </p>
+		        <p>© 2018 Luxury Hotel Paris. All Rights Reserved | Design by <a href="index.php">Luxury Hotel Paris</a> </p>
 		    </div>
 <!--/footer -->
 <!-- js -->
