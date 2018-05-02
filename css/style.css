@@ -180,7 +180,7 @@ ul.social-icons3 {
     color: #fff;
     font-size: 14px;
     letter-spacing: .5px;
-    background: #0f2453;
+    background: #373737;
     border: 2px solid #ffffff;
     text-transform: uppercase;
     padding: 5px 31px;
@@ -279,7 +279,7 @@ nav.navbar.navbar-default {
     font-weight: bold;
 }
 .navbar-brand span {
-       color: #ffce14;
+       color: #373737;
 }
 p.logo_w3l_agile_caption {
     text-transform: uppercase;
@@ -451,7 +451,7 @@ li.menu__item:nth-child(6) {
     padding: 8px 25px;
     position: relative;
     display: inline-block;
-    background: #0f2453;
+    background: #373737;
 	    margin-top: 3em;
     z-index: 9999;
     border: 2px solid #fff;
@@ -708,7 +708,7 @@ li.menu__item:nth-child(6) {
 	width:100%;
 }
 .modal-content h4 {
-    color: #0f2453;
+    color: #373737;
     text-align: center;
     font-size: 26px;
     margin-bottom: .5em;
@@ -784,7 +784,7 @@ li.menu__item:nth-child(6) {
     -webkit-appearance: none;
 }
 .book-form {
-    background: #0f2453;
+    background: #373737;
     height: 147px;
     padding: 0 0 0 27px;
 }
@@ -922,7 +922,7 @@ li.menu__item:nth-child(6) {
 	font-family:FontAwesome;
 	font-size: 5em;
 	speak: none;
-	color: #0f2453;
+	color: #373737;
 	font-style: normal;
 	font-weight: normal;
 	font-variant: normal;
@@ -1003,7 +1003,7 @@ li.menu__item:nth-child(6) {
 /* Hover styles */
 
 .cbp-ig-grid li > .w3_grid_effect:hover {
-    background: #0f2453;
+    background: #373737;
 }
 
 .cbp-ig-grid li > .w3_grid_effect:hover .cbp-ig-icon {
@@ -1061,7 +1061,7 @@ h3.title-w3-agileits {
 	font-family:'Oswald', sans-serif;
 }
 .title-black-wthree{
-	color:#0f2453!important;
+	color:#373737!important;
 }
 /*--//main--*/
 /*-- /about --*/
@@ -1094,7 +1094,7 @@ h3.title-w3-agileits {
     /* margin-bottom: 11px; */
     line-height: 1.4em;
     text-transform: capitalize;
-    background: #0f2453;
+    background: #373737;
     padding: 10px 15px;
 }
 .w3ls-info-about p {
@@ -1246,7 +1246,7 @@ ul.resp-tabs-list {
     font-size: 1.5em;
     color: #fff;
     padding: 0.4em 1em;
-    background: #0f2453;
+    background: #373737;
     font-weight: 300;
     position: absolute;
     top: 9.6em;
@@ -1292,7 +1292,7 @@ ul.resp-tabs-list {
     color: #000000;
     display: inline-block;
     padding: 0.5em 2em;
-    background: #ffce14;
+    background: #C0B283;
     text-decoration: none;
     border: 2px solid #ecbf11;
 }
@@ -1380,7 +1380,7 @@ h3.w3l-agile:before,h2.w3l-agile:before  {
 }
 .w3layouts_work_grid_right h4{
 	font-size:1em;
-       color: #0f2453;
+       color: #373737;
     text-transform: uppercase;
     letter-spacing: 2px;
 }
@@ -1589,7 +1589,7 @@ color: #fff !important;
 /*--copy-right--*/
 .copy {
     text-align: center;
-    background: #0f2453;
+    background: #373737;
 }
 .copy p {
     color: #fff;
