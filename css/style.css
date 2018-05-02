@@ -267,7 +267,7 @@ nav.navbar.navbar-default {
 	color: #fff;
 }
 .navbar-default .navbar-brand,.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
-    color: #fff;
+    color: #C0B283;
 }
 .navbar-brand {
     padding: 0;
@@ -355,7 +355,7 @@ li.menu__item:nth-child(6) {
 }
 
 .menu--iris .menu__item--current .menu__link,.menu__link:hover {
-	color:#ffce14;
+	color:#373737;
 }
 
 .menu--iris .menu__link::before,
