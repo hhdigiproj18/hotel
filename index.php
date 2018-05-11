@@ -4,7 +4,7 @@ include('db.php');
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>SUNRISE HOTEL</title>
+<title>Luxury Hotel Paris</title>
 <!-- for-mobile-apps -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -62,11 +62,10 @@ include('db.php');
 					<nav class="menu menu--iris">
 						<ul class="nav navbar-nav menu__list">
 							<li class="menu__item menu__item--current"><a href="index.php" class="menu__link">Etusivu</a></li>
-							<li class="menu__item"><a href="#about" class="menu__link scroll">Tietoa</a></li>
+							<li class="menu__item"><a href="#about" class="menu__link scroll">Meistä</a></li>
 							<li class="menu__item"><a href="#gallery" class="menu__link scroll">Galleria</a></li>
                             <li class="menu__item"><a href="#rooms" class="menu__link scroll">Huoneet</a></li>
 							<li class="menu__item"><a href="#contact" class="menu__link scroll">Ota Yhteyttä</a></li>
-							<li class="menu__item"><a href="admin/reservation.php" class="menu__link scroll">Varaa</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -101,7 +100,7 @@ include('db.php');
 							<div class="container">
 								<div class="agileits-banner-info">
 								<h4>Luxury Hotel Paris</h4>
-									<h3>Majoitu ystäviesi & perheen kanssa</h3>
+									<h3>Luksustason majoitusta pariisilaiseen tyyliin.</h3>
 										<p>Tule & Nauti arvokkaista hetkistä meidän kanssamme</p>
 									<div class="agileits_w3layouts_more menu__item">
 				<a href="#" class="menu__link" data-toggle="modal" data-target="#myModal">Lisätietoa</a>
@@ -146,9 +145,9 @@ include('db.php');
 									<div class="modal-header">
 										<button type="button" class="close" data-dismiss="modal">&times;</button>
 										<h4>Luxury  <span>Hotel Paris</span></h4>
-										<img src="images/Uudet kuvat/etusivu1.jpg" alt=" " class="img-responsive">
+										<img src="images/1.jpg" alt=" " class="img-responsive">
 										<h5>Me tiedämme mitä rakastat!</h5>
-										<p>Tarjoamalla asiakkaille ainutlaatuiset ja lumoavat näkymät huoneistaan poikkeuksellisilla mukavuuksillaan, Luxury hotel Paris on yksi parhaista suomessa. Tutustu ruokavalioihimme, koe upeita palveluita ja ystävällistä asiakaspalvelua, kun olet täällä.</p>
+										<p>Tarjoamalla asiakkaille ainutlaatuiset ja lumoavat näkymät huoneistaan poikkeuksellisilla mukavuuksillaan, Luxury hotel Paris on yksi parhaista suomessa. Tutustu ruokavalioihimme, koe upeita palveluita ja ystävällistä asiakaspalvelua, kun olet täällä</p>
 									</div>
 								</div>
 							</div>
@@ -167,13 +166,13 @@ include('db.php');
 		  <div class="container">
 				   <div class="ab-w3l-spa">
                             <h3 class="title-w3-agileits title-black-wthree">Luxury Hotel Paris</h3>
-						   <p class="about-para-w3ls">Luxury Hotel Paris tuo helsingin ytimeen luksus tason majoittumista pariisilaiseen tyyliin! Näitä uskomattomia kokemuksia et voi missata!</p>
+						   <p class="about-para-w3ls"> 5 tähden hotelli Luxury Hotel Paris tuo Helsingin ytimeen majoittumista pariisilaiseen tyyliin! Näitä uskomattomia kokemuksia et voi missata! Hotellista löytyy 100 tilavaa huonetta, meri- tai puistonäkymällä. Hotellissa on maksuton langaton internetyhteys sekä lämmitetty sisäuima-allas ja saunatila. Hotellin yläkerrassa on 24h kuntosali. Meiltä saat 24h huonepalvelun. Ravintolamme on huipputason À la carte -ravintola. Pysäköinti on ilmaista jokaiselle hotellin asiakkaalle.</p>
 						   <img src="images/about.jpg" class="img-responsive" alt="Hair Salon">
 										<div class="w3l-slider-img">
 											<img src="images/a1.jpg" class="img-responsive" alt="Hair Salon">
 										</div>
                                        <div class="w3ls-info-about">
-										    <h4>Tarjoamme Luksus palveluita juuri niin kuin haluat.</h4>
+										    <h4>Tarjoamme Luksuspalveluita juuri niin kuin haluat.</h4>
 											<p>Varaa jo tänään! </p>
 										</div>
 		          </div>
@@ -288,13 +287,15 @@ include('db.php');
 <!-- rooms & rates -->
 <div class="plans-section" id="rooms">
     <div class="container">
-        <h3 class="title-w3-agileits title-black-wthree">Huoneet & Arvostelut</h3>
+        <h3 class="title-w3-agileits title-black-wthree">Huoneet</h3>
+        <p>Jokaisesta huoneesta löytyy suihku, baarikaappi, hiustenkuivain, tv, silitysrauta ja parisänky. Kaikissa kahden hengen huoneissa on minikeittiö. Siivous tehdään joka päivä. </p>
         <div class="priceing-table-main">
             <div class="col-md-3 price-grid">
                 <div class="price-block agile">
                     <div class="price-gd-top">
                         <img src="images/r1.jpg" alt=" " class="img-responsive" />
                         <h4>Luxury huone 2hh</h4>
+                        
                     </div>
                     <div class="price-gd-bottom">
                         <div class="price-list">
@@ -411,13 +412,11 @@ include('db.php');
 								<i class="fa fa-star" aria-hidden="true"></i>
 								<i class="fa fa-star" aria-hidden="true"></i>
 								<i class="fa fa-star" aria-hidden="true"></i>
-								Worth to come again
+								Tänne tulen varmasti uudestaan!
 								</h4>
-								<p>Sed tempus vestibulum lacus blandit faucibus.
-									Nunc imperdiet, diam nec rhoncus ullamcorper, nisl nulla suscipit ligula,
-									at imperdiet urna. </p>
+								<p>Rakastuin paikkaa ensi silmäyksellä! Suosittelen hotellia kaikille jotka kaipaavat luksusta. </p>
 								<h5>Julia Rose</h5>
-								<p>Germany</p>
+								<p>Finland</p>
 							</div>
 							<div class="clearfix"> </div>
 						</li>
@@ -437,9 +436,7 @@ include('db.php');
 								<i class="fa fa-star-o" aria-hidden="true"></i>
 								Worth to come again
 								</h4>
-								<p>Sed tempus vestibulum lacus blandit faucibus.
-									Nunc imperdiet, diam nec rhoncus ullamcorper, nisl nulla suscipit ligula,
-									at imperdiet urna. </p>
+								<p>Amazing hotel! I suggest to everyone who likes luxury. </p>
 								<h5>Jahnatan Smith</h5>
 								<p>United States</p>
 							</div>
@@ -459,11 +456,9 @@ include('db.php');
 								<i class="fa fa-star" aria-hidden="true"></i>
 								<i class="fa fa-star" aria-hidden="true"></i>
 								<i class="fa fa-star-o" aria-hidden="true"></i>
-								Worth to come again
+								Ero in viaggio d'affar
 								</h4>
-								<p>Sed tempus vestibulum lacus blandit faucibus.
-									Nunc imperdiet, diam nec rhoncus ullamcorper, nisl nulla suscipit ligula,
-									at imperdiet urna. </p>
+								<p>L'incontro di lavoro è stato in questo hotel e mi sono innamorato di questo hotel. </p>
 								<h5>Rosalind Cloer</h5>
 								<p>Italy</p>
 							</div>
@@ -483,11 +478,9 @@ include('db.php');
 								<i class="fa fa-star" aria-hidden="true"></i>
 								<i class="fa fa-star-o" aria-hidden="true"></i>
 								<i class="fa fa-star-o" aria-hidden="true"></i>
-								Worth to come again
+								Ich empfehle jedem
 								</h4>
-								<p>Sed tempus vestibulum lacus blandit faucibus.
-									Nunc imperdiet, diam nec rhoncus ullamcorper, nisl nulla suscipit ligula,
-									at imperdiet urna. </p>
+								<p>Die Geschäftsreise war großartig in diesem Hotel. Ich empfehle! </p>
 								<h5>Amie Bublitz</h5>
 								<p>Switzerland</p>
 							</div>

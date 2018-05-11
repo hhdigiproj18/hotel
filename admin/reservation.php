@@ -66,27 +66,27 @@ include('db.php')
                                             </select>
                               </div>
 							  <div class="form-group">
-                                            <label>First Name</label>
+                                            <label>Etunimi</label>
                                             <input name="fname" class="form-control" required>
                                             
                                </div>
 							   <div class="form-group">
-                                            <label>Last Name</label>
+                                            <label>Sukunimi</label>
                                             <input name="lname" class="form-control" required>
                                             
                                </div>
 							   <div class="form-group">
-                                            <label>Email</label>
+                                            <label>Sähköposti</label>
                                             <input name="email" type="email" class="form-control" required>
                                             
                                </div>
 							   <div class="form-group">
-                                            <label>Nationality*</label>
+                                            <label>Kansallisuus*</label>
                                             <label class="radio-inline">
-                                                <input type="radio" name="nation"  value="Sri Lankan" checked="">Sri Lankan
+                                                <input type="radio" name="nation"  value="EU" checked="">EU
                                             </label>
                                             <label class="radio-inline">
-                                                <input type="radio" name="nation"  value="Non Sri Lankan ">Non Sri Lankan 
+                                                <input type="radio" name="nation"  value="Non EU ">Non EU 
                                             </label>
                          
                                 </div>
@@ -107,7 +107,7 @@ include('db.php')
                                             </select>
 								</div>
 								<div class="form-group">
-                                            <label>Phone Number</label>
+                                            <label>Puhelin numero</label>
                                             <input name="phone" type ="text" class="form-control" required>
                                             
                                </div>
@@ -126,7 +126,7 @@ include('db.php')
                         </div>
                         <div class="panel-body">
 								<div class="form-group">
-                                            <label>Type Of Room *</label>
+                                            <label>Huoneen tyyppi*</label>
                                             <select name="troom"  class="form-control" required>
 												<option value selected ></option>
                                                 <option value="Superior Room">SUPERIOR ROOM</option>
@@ -136,7 +136,7 @@ include('db.php')
                                             </select>
                               </div>
 							  <div class="form-group">
-                                            <label>Bedding Type</label>
+                                            <label>Vuode tyyppi</label>
                                             <select name="bed" class="form-control" required>
 												<option value selected ></option>
                                                 <option value="Single">Single</option>
@@ -149,7 +149,7 @@ include('db.php')
                                             </select>
                               </div>
 							  <div class="form-group">
-                                            <label>No.of Rooms *</label>
+                                            <label>Huoneitten määrä *</label>
                                             <select name="nroom" class="form-control" required>
 												<option value selected ></option>
                                                 <option value="1">1</option>
@@ -164,7 +164,7 @@ include('db.php')
 							 
 							 
 							  <div class="form-group">
-                                            <label>Meal Plan</label>
+                                            <label>Ruokailu</label>
                                             <select name="meal" class="form-control"required>
 												<option value selected ></option>
                                                 <option value="Room only">Room only</option>
@@ -194,9 +194,9 @@ include('db.php')
 				
                 <div class="col-md-12 col-sm-12">
                     <div class="well">
-                        <h4>HUMAN VERIFICATION</h4>
-                        <p>Type Below this code <?php $Random_code=rand(); echo$Random_code; ?> </p><br />
-						<p>Enter the random code<br /></p>
+                        <h4>Todentaminen</h4>
+                        <p>Kirjoita koodi laatikkoon. <?php $Random_code=rand(); echo$Random_code; ?> </p><br />
+						<p>Kirjoita satunnainen koodi.<br /></p>
 							<input  type="text" name="code1" title="random code" />
 							<input type="hidden" name="code" value="<?php echo $Random_code; ?>" />
 						<input type="submit" name="submit" class="btn btn-primary">

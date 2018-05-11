@@ -7,7 +7,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 html, body{
 	margin:0;
 	font-size: 100%;
-	font-family: 'Arial', sans-serif;
+	font-family: 'Calibri', sans-serif;
 	background: #fff;
 }
 body a {
@@ -30,7 +30,7 @@ input[type="button"],input[type="submit"]{
 }
 h1,h2,h3,h4,h5,h6{
 	margin:0;
-	font-family: 'Federo', sans-serif;
+	font-family: 'Arial', sans-serif;
     font-weight: 600;
 }	
 p{
@@ -169,7 +169,7 @@ ul.social-icons3 {
     color: #555;
     border: 1px solid #fff;
     background: #fff;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Calibri', sans-serif;
 }
 .search_form input[type='search']::-webkit-input-placeholder{
 	color:#fff !important;
@@ -267,7 +267,7 @@ nav.navbar.navbar-default {
 	color: #fff;
 }
 .navbar-default .navbar-brand,.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
-    color: #fff;
+    color: #c0b283;
 }
 .navbar-brand {
     padding: 0;
@@ -279,7 +279,7 @@ nav.navbar.navbar-default {
     font-weight: bold;
 }
 .navbar-brand span {
-       color: #ffce14;
+       color: #373737;
 }
 p.logo_w3l_agile_caption {
     text-transform: uppercase;
@@ -287,7 +287,7 @@ p.logo_w3l_agile_caption {
     font-size: 11px;
     color: #373737;
     text-shadow: 0px 1px 3px #454a47;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Calibri', sans-serif;
     font-weight: 600;
 }
 .agile_short_dropdown {
@@ -355,7 +355,7 @@ li.menu__item:nth-child(6) {
 }
 
 .menu--iris .menu__item--current .menu__link,.menu__link:hover {
-	color:#ffce14;
+	color:#dcd0c0;
 }
 
 .menu--iris .menu__link::before,
@@ -365,7 +365,7 @@ li.menu__item:nth-child(6) {
 	width: 10px;
 	height: 10px;
 	opacity: 0;
-	border: 2px solid #ffce14;
+	border: 2px solid #373737;
 	-webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
 	transition: transform 0.3s, opacity 0.3s;
 	-webkit-transition-timing-function: cubic-bezier(0.17, 0.67, 0.05, 1.29);
@@ -411,7 +411,7 @@ li.menu__item:nth-child(6) {
     letter-spacing: 27px;
     font-weight: bold;
     text-transform: uppercase;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Arial', sans-serif;
 }
 .agileits-banner-info h3 {
     color: #fff;
@@ -451,7 +451,7 @@ li.menu__item:nth-child(6) {
     padding: 8px 25px;
     position: relative;
     display: inline-block;
-    background: #0f2453;
+    background: #373737;
 	    margin-top: 3em;
     z-index: 9999;
     border: 2px solid #fff;
@@ -741,7 +741,7 @@ li.menu__item:nth-child(6) {
 }
 .book-form-left-w3layouts h2 {
     color: #fff;
-    background: #ffce14;
+    background: #dcd0c0;
     padding: 60px 0;
     text-align: center;
     font-size: 25px;
@@ -758,7 +758,7 @@ li.menu__item:nth-child(6) {
     -webkit-appearance: none;
     margin-bottom: 1em;
     background: none;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Calibri', sans-serif;
 }
 .book-form input[type="text"]{
 	 border: 2px solid #fff;
@@ -1058,10 +1058,10 @@ h3.title-w3-agileits {
     margin-bottom: 1em;
     text-align: center;  
 	text-transform: capitalize;
-	font-family:'Oswald', sans-serif;
+	font-family:'Arial', sans-serif;
 }
 .title-black-wthree{
-	color:#0f2453!important;
+	color:#373737!important;
 }
 /*--//main--*/
 /*-- /about --*/
@@ -1090,11 +1090,11 @@ h3.title-w3-agileits {
 .w3ls-info-about h4 {
     font-size: 1.5em;
     letter-spacing: 1px;
-    color: #ffce14;
+    color: #ffffff;
     /* margin-bottom: 11px; */
     line-height: 1.4em;
     text-transform: capitalize;
-    background: #0f2453;
+    background: #373737;
     padding: 10px 15px;
 }
 .w3ls-info-about p {
@@ -1246,7 +1246,7 @@ ul.resp-tabs-list {
     font-size: 1.5em;
     color: #fff;
     padding: 0.4em 1em;
-    background: #0f2453;
+    background: #373737;
     font-weight: 300;
     position: absolute;
     top: 9.6em;
@@ -1259,7 +1259,7 @@ ul.resp-tabs-list {
     margin-left: 20px;
 }
 .price-selet h3 span {
-    color: #ef0404;
+    color: #373737;
     font-size: 31px;
     margin-right: 5px;
 }
@@ -1292,9 +1292,9 @@ ul.resp-tabs-list {
     color: #000000;
     display: inline-block;
     padding: 0.5em 2em;
-    background: #ffce14;
+    background: #c0b283;
     text-decoration: none;
-    border: 2px solid #ecbf11;
+    border: 2px solid #c0b283;
 }
 .price-block {
     box-shadow: 0px 0px 2px 1px rgba(0,0,0,0.15);
@@ -1546,7 +1546,7 @@ section.contact-w3ls input#name, section.contact-w3ls input#email, section.conta
 	background-color:transparent;
 	border-radius:0;
 	border-color:#fff;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Calibri', sans-serif;
 }
 section.contact-w3ls button.btn.btn-primary {
 	color:#ffce14;
@@ -1589,7 +1589,7 @@ color: #fff !important;
 /*--copy-right--*/
 .copy {
     text-align: center;
-    background: #0f2453;
+    background: #373737;
 }
 .copy p {
     color: #fff;
