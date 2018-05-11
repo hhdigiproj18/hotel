@@ -66,6 +66,7 @@ include('db.php');
 							<li class="menu__item"><a href="#gallery" class="menu__link scroll">Galleria</a></li>
                             <li class="menu__item"><a href="#rooms" class="menu__link scroll">Huoneet</a></li>
 							<li class="menu__item"><a href="#contact" class="menu__link scroll">Ota Yhteyttä</a></li>
+							<li class="menu__item"><a href="admin/reservation.php" class="menu__link scroll">Varaa</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -144,10 +145,10 @@ include('db.php');
 								<div class="modal-content">
 									<div class="modal-header">
 										<button type="button" class="close" data-dismiss="modal">&times;</button>
-										<h4>SUN  <span>RISE</span></h4>
+										<h4>Luxury  <span>Hotel Paris</span></h4>
 										<img src="images/Uudet kuvat/etusivu1.jpg" alt=" " class="img-responsive">
-										<h5>We know what you love</h5>
-										<p>Providing guests unique and enchanting views from their rooms with its exceptional amenities, makes Star Hotel one of bests in its kind.Try our food menu, awesome services and friendly staff while you are here.</p>
+										<h5>Me tiedämme mitä rakastat!</h5>
+										<p>Tarjoamalla asiakkaille ainutlaatuiset ja lumoavat näkymät huoneistaan poikkeuksellisilla mukavuuksillaan, Luxury hotel Paris on yksi parhaista suomessa. Tutustu ruokavalioihimme, koe upeita palveluita ja ystävällistä asiakaspalvelua, kun olet täällä.</p>
 									</div>
 								</div>
 							</div>
@@ -166,117 +167,21 @@ include('db.php');
 		  <div class="container">
 				   <div class="ab-w3l-spa">
                             <h3 class="title-w3-agileits title-black-wthree">Luxury Hotel Paris</h3>
-						   <p class="about-para-w3ls">Lorem Ipsum is simply dummy text of the printing and typesetting industry.Sed tempus vestibulum lacus blandit faucibus. Nunc imperdiet, diam nec rhoncus ullamcorper, nisl nulla suscipit ligula, at imperdiet urna</p>
+						   <p class="about-para-w3ls">Luxury Hotel Paris tuo helsingin ytimeen luksus tason majoittumista pariisilaiseen tyyliin! Näitä uskomattomia kokemuksia et voi missata!</p>
 						   <img src="images/about.jpg" class="img-responsive" alt="Hair Salon">
 										<div class="w3l-slider-img">
 											<img src="images/a1.jpg" class="img-responsive" alt="Hair Salon">
 										</div>
                                        <div class="w3ls-info-about">
-										    <h4>You'll love all the amenities we offer!</h4>
-											<p>Lorem ipsum dolor sit amet, ut magna aliqua. </p>
+										    <h4>Tarjoamme Luksus palveluita juuri niin kuin haluat.</h4>
+											<p>Varaa jo tänään! </p>
 										</div>
 		          </div>
 		   	<div class="clearfix"> </div>
     </div>
 </div>
  	<!-- //about -->
-<!-- team -->
-<div class="team" id="team">
-	<div class="container">
-			<h3 class="title-w3-agileits title-black-wthree">Meet Our Team</h3>
-			<div id="horizontalTab">
-					<ul class="resp-tabs-list">
-					<li>
-						<img src="images/teams1.jpg" alt=" " class="img-responsive" />
-					</li>
-					<li>
-						<img src="images/teams2.jpg" alt=" " class="img-responsive" />
-					</li>
-					<li>
-						<img src="images/teams3.jpg" alt=" " class="img-responsive" />
-					</li>
-					<li>
-						<img src="images/teams4.jpg" alt=" " class="img-responsive" />
-					</li>
-					</ul>
-					<div class="resp-tabs-container">
-					<div class="tab1">
-						<div class="col-md-6 team-img-w3-agile">
-						</div>
-						<div class="col-md-6 team-Info-agileits">
-							<h4>Lucas Jimenez</h4>
-							<span>Manager</span>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.Lorem ipsum dolor .</p>
-						<div class="social-bnr-agileits footer-icons-agileinfo">
-							<ul class="social-icons3">
-								<li><a href="#" class="fa fa-facebook icon-border facebook"> </a></li>
-								<li><a href="#" class="fa fa-twitter icon-border twitter"> </a></li>
-								<li><a href="#" class="fa fa-google-plus icon-border googleplus"> </a></li> 
-								<li><a href="#" class="fa fa-rss icon-border rss"> </a></li>
-							</ul>
-						</div>							
-						</div>
-						<div class="clearfix"> </div>
-					</div>
-					<div class="tab2">
-					<div class="col-md-6 team-img-w3-agile">
-						</div>
-						<div class="col-md-6 team-Info-agileits">
-							<h4>Sarah Connor</h4>
-							<span>Receptionist</span>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.Lorem ipsum dolor .</p>	
-						<div class="social-bnr-agileits footer-icons-agileinfo">
-							<ul class="social-icons3">
-								<li><a href="#" class="fa fa-facebook icon-border facebook"> </a></li>
-								<li><a href="#" class="fa fa-twitter icon-border twitter"> </a></li>
-								<li><a href="#" class="fa fa-google-plus icon-border googleplus"> </a></li> 
-								<li><a href="#" class="fa fa-rss icon-border rss"> </a></li>
-							</ul>
-						</div>							
-						</div>
-						<div class="clearfix"> </div>
-					</div>
-					<div class="tab3">
-						<div class="col-md-6 team-img-w3-agile">
-						</div>
-						<div class="col-md-6 team-Info-agileits">
-							<h4>Ivan Simpson</h4>
-							<span>Manager</span>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.Lorem ipsum dolor .</p>
-						<div class="social-bnr-agileits footer-icons-agileinfo">
-							<ul class="social-icons3">
-								<li><a href="#" class="fa fa-facebook icon-border facebook"> </a></li>
-								<li><a href="#" class="fa fa-twitter icon-border twitter"> </a></li>
-								<li><a href="#" class="fa fa-google-plus icon-border googleplus"> </a></li> 
-								<li><a href="#" class="fa fa-rss icon-border rss"> </a></li>
-							</ul>
-						</div>							
-						</div>
-						<div class="clearfix"> </div>
-					</div>
-					<div class="tab4">
-					<div class="col-md-6 team-img-w3-agile">
-						</div>
-						<div class="col-md-6 team-Info-agileits">
-							<h4>Marc Gutierrez</h4>
-							<span>Receptionist</span>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.Lorem ipsum dolor .</p>
-						<div class="social-bnr-agileits footer-icons-agileinfo">
-							<ul class="social-icons3">
-								<li><a href="#" class="fa fa-facebook icon-border facebook"> </a></li>
-								<li><a href="#" class="fa fa-twitter icon-border twitter"> </a></li>
-								<li><a href="#" class="fa fa-google-plus icon-border googleplus"> </a></li> 
-								<li><a href="#" class="fa fa-rss icon-border rss"> </a></li>
-							</ul>
-						</div>							
-						</div>
-						<div class="clearfix"> </div>
-					</div>
-					</div>
-			</div>
-	</div>
-</div>
-<!-- //team -->
+
 
 <!-- Gallery -->
 <section class="portfolio-w3ls" id="gallery">
