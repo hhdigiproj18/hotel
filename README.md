@@ -20,7 +20,7 @@ Please report ALL issues on our official pages below:
 
 Github 
 
-https://github.com/Digiprojekti-DIG4TA0224/hotel
+https://github.com/hhdigiproj18/hotel/
 
 **FEEDBACK**
 
