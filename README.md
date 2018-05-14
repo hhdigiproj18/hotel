@@ -20,7 +20,7 @@ Please report ALL issues on our official pages below:
 
 Github 
 
-https://github.com/hhdigiproj18/hotel
+https://github.com/Digiprojekti-DIG4TA0224/hotel
 
 **FEEDBACK**
 
@@ -31,8 +31,3 @@ _tim.fabritius@myy.haaga-helia.fi_
 or report them as issue on Github
 
 We don't have database host yet but we will take it soon!
-
-**CREDITS**
-
-Thanks Viththiyakaran Nadarajah for template.
-https://www.youtube.com/watch?v=MxOZ6AfcUeU&t=1s
