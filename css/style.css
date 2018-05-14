@@ -1493,9 +1493,9 @@ section.contact-w3ls p.contact-agile1 {
     color: #fff;
 }
 section.contact-w3ls p.contact-agile1 strong {
-    font-family: 'Federo', sans-serif;
+    font-family: 'Calibri', sans-serif;
     letter-spacing: 1.5px;
-    color: #ffce14!important;
+    color: #fff!important;
 	font-size: 16px;
 }
 section.contact-w3ls p.contact-agile1 a {
@@ -1511,7 +1511,7 @@ section.contact-w3ls h4 {
 	font-weight:normal;
 	color:#fff;
 	padding-bottom:20px;
-	font-family: 'Federo', sans-serif;
+	font-family: 'Arial', sans-serif;
 	text-align:center;
 }
 section.contact-w3ls p.contact-agile2 {
@@ -1519,7 +1519,7 @@ section.contact-w3ls p.contact-agile2 {
 	font-weight:normal;
 	padding-bottom:20px;
 	line-height:30px;
-	color:#ffce14;
+	color:#fff;
 	text-align:center;
 }
 section.contact-w3ls label.contact-p1 {
@@ -1598,7 +1598,7 @@ color: #fff !important;
     padding: 1em;
 }
 .copy p a {
-    color: #ffce14;
+    color: #fff;
     text-decoration: none;
 	transition: 0.5s all;
     -webkit-transition: 0.5s all;

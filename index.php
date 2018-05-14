@@ -38,7 +38,7 @@ include('db.php');
 			</div>
 			<div class="contact-bnr-w3-agile">
 				<ul>
-					<li><i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:info@example.com">INFO@SUNRISE.COM</a></li>
+					<li><i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:info@example.com">info@hotelparis.fi</a></li>
 					<li><i class="fa fa-phone" aria-hidden="true"></i>+94 (65)222-44-55</li>
 
 				</ul>
@@ -165,7 +165,7 @@ include('db.php');
  	<div class="about-wthree" id="about">
 		  <div class="container">
 				   <div class="ab-w3l-spa">
-                            <h3 class="title-w3-agileits title-black-wthree">Luxury Hotel Paris</h3>
+                            <h3 class="title-w3-agileits title-black-wthree">Meistä</h3>
 						   <p class="about-para-w3ls"> 5 tähden hotelli Luxury Hotel Paris tuo Helsingin ytimeen majoittumista pariisilaiseen tyyliin! Näitä uskomattomia kokemuksia et voi missata! Hotellista löytyy 100 tilavaa huonetta, meri- tai puistonäkymällä. Hotellissa on maksuton langaton internetyhteys sekä lämmitetty sisäuima-allas ja saunatila. Hotellin yläkerrassa on 24h kuntosali. Meiltä saat 24h huonepalvelun. Ravintolamme on huipputason À la carte -ravintola. Pysäköinti on ilmaista jokaiselle hotellin asiakkaalle.</p>
 						   <img src="images/about.jpg" class="img-responsive" alt="Hair Salon">
 										<div class="w3l-slider-img">
@@ -289,13 +289,15 @@ include('db.php');
     <div class="container">
         <h3 class="title-w3-agileits title-black-wthree">Huoneet</h3>
         <p>Jokaisesta huoneesta löytyy suihku, baarikaappi, hiustenkuivain, tv, silitysrauta ja parisänky. Kaikissa kahden hengen huoneissa on minikeittiö. Siivous tehdään joka päivä. </p>
+        <br>
+        <br>
         <div class="priceing-table-main">
             <div class="col-md-3 price-grid">
                 <div class="price-block agile">
                     <div class="price-gd-top">
                         <img src="images/r1.jpg" alt=" " class="img-responsive" />
                         <h4>Luxury huone 2hh</h4>
-                        
+
                     </div>
                     <div class="price-gd-bottom">
                         <div class="price-list">
@@ -497,8 +499,8 @@ include('db.php');
 	<div class="container">
 		<div class="col-lg-6 col-md-6 col-sm-6 contact-w3-agile2" data-aos="flip-left">
 			<div class="contact-agileits">
-				<h4>Registeröidy</h4>
-				<p class="contact-agile2">Registeröidy ja tilaa uutiskirjeemme</p>
+				<h4>Rekisteröidy</h4>
+				<p class="contact-agile2">Rekisteröidy ja tilaa uutiskirjeemme</p>
 				<form  method="post" name="sentMessage" id="contactForm" >
 					<div class="control-group form-group">
 
@@ -545,7 +547,7 @@ include('db.php');
 		<div class="col-lg-6 col-md-6 col-sm-6 contact-w3-agile1" data-aos="flip-right">
 			<h4>Ole Meihin Yhteydessä!</h4>
 			<p class="contact-agile1"><strong>Puhelin :</strong>+94 (65)222-44-55</p>
-			<p class="contact-agile1"><strong>Sähköpostiosoite :</strong> <a href="mailto:name@example.com">INFO@SUNRISE.COM</a></p>
+			<p class="contact-agile1"><strong>Sähköpostiosoite :</strong> <a href="mailto:name@example.com">info@hotelparis.fi</a></p>
 			<p class="contact-agile1"><strong>Osoite :</strong> Helsinki, Ratapihantie 14, Suomi</p>
 
 			<div class="social-bnr-agileits footer-icons-agileinfo">
